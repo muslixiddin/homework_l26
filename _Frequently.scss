@@ -1,0 +1,23 @@
+.Frequently{
+    .Frequently_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Frequently_desc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper_Frequently-bottom{
+        max-width: 920px;
+        height: 468px;
+        .wrapper_item{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            border-bottom: 1px solid ;
+            padding: 15px;
+        }
+    }
+}

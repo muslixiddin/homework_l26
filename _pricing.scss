@@ -1,0 +1,88 @@
+.pricing{
+    padding-bottom: 150px;
+    .pricing_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing_info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 32px;
+    }
+    .pricing_desc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 16px;
+    }
+    .pricing_boxes{
+        display: flex;
+        gap: 71px;
+        padding-top: 49px;
+        .box{
+            width: 322px;
+            height: 456px;
+           background-color: rgba(255, 255, 255, 1);
+           .pricing_box-title{
+            display: flex;align-items: center;justify-content: center;
+            padding-top: 24px;
+            font-weight: 700;
+            font-style: 24px;
+            color: rgba(34, 52, 61, 1);
+           }
+           .pricing_box-deck{
+            display: flex;align-items: center;justify-content: center;
+            font-weight: 4p0;
+            font-style: 16px;
+            line-height: 4;
+            color: rgba(34, 52, 61, 1);
+           }
+        }
+
+        .wrapper_sum{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .wrapper_left{
+                font-weight: 700;
+                font-size: 76px;
+                color: rgba(2, 137, 122, 1);
+            }
+            .wrapper_right{
+                span{
+                    p{
+                        color: rgba(175, 175, 175, 1);
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .PRICING_BTN{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           button{
+            padding: 11px;
+            padding-left: 12px;
+            padding: 18px;
+            border: none;
+            border-radius: 8px;
+            background-color: rgba(2, 137, 122, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           }
+        }
+        
+    }
+    .pricing_ifo-bottom{
+        flex: box;
+        align-items: center;
+        justify-content: center;
+    }
+}

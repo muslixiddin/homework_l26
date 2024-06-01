@@ -1,0 +1,22 @@
+.Product{
+    .Product_title{
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper_product-bottom{
+        display: flex;
+        gap: 100px;
+        .wrapper_product_right{
+         padding-top: 30px;
+            .wrapper_product_right-content{
+                max-width: 541px;
+                .enterprenur{
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

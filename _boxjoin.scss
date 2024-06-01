@@ -1,0 +1,29 @@
+.box_join{
+    width: 968px;
+    height: 345px;
+    background-color: rgba(2, 137, 122, 1);
+    border-radius: 32px;
+    display: flex;
+
+    .box_join-left{
+        padding-top: 49px;
+        padding-left: 51px;
+        width: 490px;
+        h1{
+            font-weight: 600;
+            font-size: 32px;
+        }
+    }
+    .box_join-btn{
+        padding-top: 108px;
+        padding-left: 49px;
+        button{
+            padding: 10px;
+            padding-left: 34px;
+            padding-right: 34px;
+            color: #000;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+}

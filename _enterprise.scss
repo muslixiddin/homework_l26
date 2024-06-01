@@ -1,0 +1,38 @@
+.ENTERPRISE {
+  padding-top: 203px;
+  padding-bottom: 150px;
+  background-color: rgba(61, 96, 114, 0.404);
+  .ENTERPRISE_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ENTERPRISE_info {
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ENTERPRISE_desc {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn {
+    padding-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      padding: 11px;
+      padding-left: 18px;
+      padding-right: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: rgba(2, 137, 122, 1);
+    }
+  }
+}

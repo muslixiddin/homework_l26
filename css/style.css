@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+body {
+  background: rgb(34, 52, 61);
+}
+
+button {
+  cursor: pointer;
+}
+
+.pricing {
+  padding-bottom: 150px;
+}
+.pricing .pricing_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing .pricing_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+}
+.pricing .pricing_desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+}
+.pricing .pricing_boxes {
+  display: flex;
+  gap: 71px;
+  padding-top: 49px;
+}
+.pricing .pricing_boxes .box {
+  width: 322px;
+  height: 456px;
+  background-color: rgb(255, 255, 255);
+}
+.pricing .pricing_boxes .box .pricing_box-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  font-weight: 700;
+  font-style: 24px;
+  color: rgb(34, 52, 61);
+}
+.pricing .pricing_boxes .box .pricing_box-deck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 4p0;
+  font-style: 16px;
+  line-height: 4;
+  color: rgb(34, 52, 61);
+}
+.pricing .pricing_boxes .wrapper_sum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing .pricing_boxes .wrapper_sum .wrapper_left {
+  font-weight: 700;
+  font-size: 76px;
+  color: rgb(2, 137, 122);
+}
+.pricing .pricing_boxes .wrapper_sum .wrapper_right span p {
+  color: rgb(175, 175, 175);
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing .pricing_boxes .PRICING_BTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing .pricing_boxes .PRICING_BTN button {
+  padding: 11px;
+  padding-left: 12px;
+  padding: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(2, 137, 122);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricing .pricing_ifo-bottom {
+  flex: box;
+  align-items: center;
+  justify-content: center;
+}
+
+.ENTERPRISE {
+  padding-top: 203px;
+  padding-bottom: 150px;
+  background-color: rgba(61, 96, 114, 0.404);
+}
+.ENTERPRISE .ENTERPRISE_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ENTERPRISE .ENTERPRISE_info {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ENTERPRISE .ENTERPRISE_desc {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ENTERPRISE .btn {
+  padding-top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ENTERPRISE .btn button {
+  padding: 11px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(2, 137, 122);
+}
+
+.Product .Product_title {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Product .wrapper_product-bottom {
+  display: flex;
+  gap: 100px;
+}
+.Product .wrapper_product-bottom .wrapper_product_right {
+  padding-top: 30px;
+}
+.Product .wrapper_product-bottom .wrapper_product_right .wrapper_product_right-content {
+  max-width: 541px;
+}
+.Product .wrapper_product-bottom .wrapper_product_right .wrapper_product_right-content .enterprenur {
+  display: flex;
+  align-items: center;
+}
+
+.Frequently .Frequently_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Frequently .Frequently_desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Frequently .wrapper_Frequently-bottom {
+  max-width: 920px;
+  height: 468px;
+}
+.Frequently .wrapper_Frequently-bottom .wrapper_item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid;
+  padding: 15px;
+}
+
+.box_join {
+  width: 968px;
+  height: 345px;
+  background-color: rgb(2, 137, 122);
+  border-radius: 32px;
+  display: flex;
+}
+.box_join .box_join-left {
+  padding-top: 49px;
+  padding-left: 51px;
+  width: 490px;
+}
+.box_join .box_join-left h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+.box_join .box_join-btn {
+  padding-top: 108px;
+  padding-left: 49px;
+}
+.box_join .box_join-btn button {
+  padding: 10px;
+  padding-left: 34px;
+  padding-right: 34px;
+  color: #000;
+  border-radius: 10px;
+  border: none;
+}
+
+.header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .nav .header_right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header .nav .header_right .header_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
